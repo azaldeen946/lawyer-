@@ -1,0 +1,105 @@
+<!DOCTYPE html><html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مكتب المحامي عزالدين الشمري</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #1a365d;
+            --accent: #d4a017;
+            --bg: #f9f9f9;
+            --text: #222;
+        }
+        body {
+            margin: 0;
+            font-family: 'Tahoma', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+        }
+        header {
+            background: var(--primary);
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 2rem;
+            max-width: 900px;
+            margin: auto;
+        }
+        h2 {
+            color: var(--primary);
+            border-bottom: 2px solid var(--accent);
+            padding-bottom: 0.5rem;
+        }
+        footer {
+            background: var(--primary);
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+        .section {
+            margin-bottom: 3rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>مكتب المحامي عزالدين الشمري</h1>
+        <nav>
+            <a href="#about">من نحن</a>
+            <a href="#services">الخدمات</a>
+            <a href="#faq">الأسئلة</a>
+            <a href="#blog">المقالات</a>
+            <a href="#contact">اتصل بنا</a>
+        </nav>
+    </header><section id="about" class="section">
+    <h2>من نحن</h2>
+    <p>مكتب قانوني متخصص بالقضايا الجنائية، التجارية، الأحوال الشخصية، وتقديم الاستشارات القانونية. تأسس المكتب على يد المحامي عزالدين الشمري صاحب خبرة واسعة في ساحات القضاء.</p>
+</section>
+
+<section id="services" class="section">
+    <h2>الخدمات القانونية</h2>
+    <ul>
+        <li>استشارات قانونية</li>
+        <li>صياغة العقود</li>
+        <li>المرافعة أمام المحاكم</li>
+        <li>قضايا الطلاق والحضانة</li>
+        <li>تأسيس الشركات وتسجيلها</li>
+    </ul>
+</section>
+
+<section id="faq" class="section">
+    <h2>الأسئلة الشائعة</h2>
+    <p><strong>متى أحتاج محامي؟</strong><br>عند وجود نزاع قانوني، كتابة عقد، رفع دعوى، أو للدفاع عن حقوقك.</p>
+    <p><strong>كم تستغرق إجراءات الطلاق؟</strong><br>تختلف حسب الحالة، من شهر إلى عدة أشهر.</p>
+</section>
+
+<section id="blog" class="section">
+    <h2>مقالات قانونية</h2>
+    <p><strong>ما الفرق بين الجنحة والجناية؟</strong><br>الجنحة عقوبتها أخف مثل الحبس البسيط، أما الجناية فهي مثل القتل والسرقة المسلحة وتكون بعقوبات مشددة.</p>
+    <p><strong>أهمية التوثيق القانوني للعقود</strong><br>توثيق العقود يقلل من المخاطر القانونية ويحفظ حقوق الطرفين.</p>
+</section>
+
+<section id="contact" class="section">
+    <h2>اتصل بنا</h2>
+    <p>📍 ديالى - بعقوبة<br>
+       ☎️ 0780 123 4567<br>
+       📧 azaldeen.lawyer@gmail.com<br>
+       🕒 الأحد إلى الخميس: 9 صباحاً - 4 مساءً</p>
+</section>
+
+<footer>
+    &copy; 2025 جميع الحقوق محفوظة - المحامي عزالدين الشمري
+</footer>
+
+</body>
+</html>
