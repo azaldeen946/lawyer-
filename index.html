@@ -10,12 +10,19 @@
       font-family: 'Cairo', sans-serif;
       margin: 0;
       padding: 0;
+      display: flex;
+      min-height: 100vh;
     }
     header {
       background-color: #1a365d;
       color: white;
       padding: 1rem;
       text-align: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 999;
     }
     nav {
       background-color: #f2f2f2;
@@ -23,10 +30,10 @@
       display: flex;
       flex-direction: column;
       width: 250px;
-      height: 100vh;
       position: fixed;
-      top: 0;
+      top: 80px;
       right: 0;
+      bottom: 0;
       overflow-y: auto;
       box-shadow: -2px 0 10px rgba(0,0,0,0.1);
     }
@@ -46,7 +53,8 @@
     }
     main {
       margin-right: 270px;
-      padding: 2rem;
+      padding: 6rem 2rem 2rem 2rem;
+      flex: 1;
     }
     h1, h2 {
       color: #1a365d;
@@ -78,6 +86,7 @@
       background-color: #1a365d;
       color: white;
       position: relative;
+      margin-top: 2rem;
     }
   </style>
 </head>
@@ -105,7 +114,7 @@
 
   <div class="law-card">
     <h3>قانون العقوبات العراقي رقم 111 لسنة 1969</h3>
-    <p>يعتبر من أهم القوانين العراقية، ويشمل كافة الجرائم والعقوبات. من أبرز مواده:</p>
+    <p>من أبرز مواده:</p>
     <ul>
       <li><strong>المادة 1:</strong> لا جريمة ولا عقوبة إلا بنص.</li>
       <li><strong>المادة 406:</strong> القتل العمد يعاقب بالإعدام أو السجن المؤبد.</li>
