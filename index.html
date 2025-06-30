@@ -1,165 +1,160 @@
 <!DOCTYPE html><html lang="ar" dir="rtl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>مكتب المحامي عزالدين الشمري | معلومات قانونية</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <style>
-        :root {
-            --primary: #002244;  /* كحلي غامق */
-            --accent: #c19e00;   /* ذهبي غامق */
-            --bg: #f3f3f3;
-            --text: #222;
-        }
-        body {
-            margin: 0;
-            font-family: 'Segoe UI', Tahoma, sans-serif;
-            background: var(--bg);
-            color: var(--text);
-        }
-        header {
-            background: var(--primary);
-            color: white;
-            padding: 2rem 1rem;
-            text-align: center;
-        }
-        nav {
-            background: var(--accent);
-            padding: 1rem;
-            text-align: center;
-        }
-        nav a {
-            color: white;
-            margin: 0 15px;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        .container {
-            display: flex;
-            max-width: 1200px;
-            margin: auto;
-        }
-        aside {
-            width: 25%;
-            background: white;
-            padding: 1rem;
-            border-left: 3px solid var(--accent);
-        }
-        aside ul {
-            list-style: none;
-            padding: 0;
-        }
-        aside ul li {
-            margin: 1rem 0;
-        }
-        aside ul li a {
-            color: var(--primary);
-            text-decoration: none;
-            font-weight: 500;
-        }
-        main {
-            width: 75%;
-            padding: 2rem;
-        }
-        section {
-            margin-bottom: 3rem;
-        }
-        h2 {
-            color: var(--primary);
-            border-bottom: 2px solid var(--accent);
-            padding-bottom: 0.5rem;
-        }
-        footer {
-            background: var(--primary);
-            color: white;
-            text-align: center;
-            padding: 1rem;
-        }
-        img.law-img {
-            width: 100%;
-            max-height: 300px;
-            object-fit: cover;
-            border-radius: 8px;
-            margin-bottom: 1rem;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>مكتب المحامي عزالدين الشمري | الصفحة الرسمية</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;900&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #0f2239;
+      --gold: #d4af37;
+      --bg: #f4f4f4;
+      --text: #222;
+    }
+    body {
+      margin: 0;
+      font-family: 'Tajawal', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+    header {
+      background: linear-gradient(to right, var(--primary), #081828);
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+    }
+    nav {
+      background: var(--gold);
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 1rem 0;
+    }
+    nav a {
+      color: #000;
+      margin: 0 20px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      background-image: url('https://cdn.pixabay.com/photo/2020/07/23/07/17/law-5438422_960_720.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 3rem;
+      background: rgba(0,0,0,0.5);
+      padding: 1rem 2rem;
+      border-radius: 10px;
+    }
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 2rem;
+    }
+    .section {
+      margin-bottom: 3rem;
+      padding: 2rem;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    }
+    .section h3 {
+      color: var(--primary);
+      margin-bottom: 1rem;
+      font-size: 1.7rem;
+    }
+    .section p, .section ul {
+      font-size: 1.1rem;
+      line-height: 1.8;
+    }
+    .section ul {
+      padding-right: 20px;
+    }
+    .search-box {
+      text-align: center;
+      margin: 2rem 0;
+    }
+    .search-box input {
+      padding: 0.6rem 1rem;
+      width: 60%;
+      font-size: 1rem;
+      border: 2px solid var(--primary);
+      border-radius: 8px;
+    }
+    footer {
+      background: var(--primary);
+      color: white;
+      text-align: center;
+      padding: 1.5rem;
+      margin-top: 4rem;
+    }
+    footer a {
+      color: var(--gold);
+      margin: 0 10px;
+      font-size: 1.2rem;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>مكتب المحامي عزالدين الشمري</h1>
-        <p>نحو عدالة قانونية متوازنة تحفظ الحقوق وتمنع التعدي</p>
-    </header><nav>
-    <a href="#criminal-law">قانون العقوبات</a>
-    <a href="#civil-procedure">قانون المرافعات</a>
-    <a href="#evidence">قانون الإثبات</a>
-    <a href="#personal-status">الأحوال الشخصية</a>
-    <a href="#general-legal-info">معلومات عامة</a>
-</nav>
-
-<div class="container">
-    <aside>
-        <h3>فهرس المحتوى</h3>
-        <ul>
-            <li><a href="#criminal-law">شرح قانون العقوبات العراقي</a></li>
-            <li><a href="#civil-procedure">قانون المرافعات المدنية</a></li>
-            <li><a href="#evidence">قانون الإثبات</a></li>
-            <li><a href="#personal-status">قانون الأحوال الشخصية</a></li>
-            <li><a href="#general-legal-info">معلومات قانونية عامة</a></li>
-        </ul>
-    </aside>
-
-    <main>
-        <section id="criminal-law">
-            <h2>قانون العقوبات العراقي</h2>
-            <img src="https://cdn.pixabay.com/photo/2020/04/17/18/51/law-5052230_960_720.jpg" class="law-img" alt="قانون">
-            <p>قانون العقوبات العراقي رقم 111 لسنة 1969 يُعد من أهم القوانين الجنائية، ويحتوي على المبادئ العامة للجريمة والعقوبة. يوضح الجريمة، أركانها، والعقوبات المترتبة عليها حسب نوع الجريمة (جنحة، جناية، مخالفة).</p>
-            <p>من أهم مواده:</p>
-            <ul>
-                <li><strong>المادة 406:</strong> عقوبة القتل العمد.</li>
-                <li><strong>المادة 413:</strong> الإصابة الخطأ.</li>
-                <li><strong>المادة 456:</strong> الاحتيال.</li>
-            </ul>
-        </section>
-
-        <section id="civil-procedure">
-            <h2>قانون المرافعات المدنية</h2>
-            <img src="https://cdn.pixabay.com/photo/2021/01/26/18/15/law-5959267_960_720.jpg" class="law-img" alt="محكمة">
-            <p>ينظم قانون المرافعات كيفية رفع الدعوى أمام المحاكم والإجراءات الشكلية الواجب اتباعها. ينقسم إلى أبواب تتعلق بالاختصاص، رفع الدعوى، تقديم اللوائح، طرق الطعن بالأحكام.</p>
-            <p>أهم المواد:</p>
-            <ul>
-                <li><strong>المادة 2:</strong> لا تُقبل دعوى إلا من ذي مصلحة.</li>
-                <li><strong>المادة 54:</strong> تقديم اللائحة الجوابية خلال مدة 15 يوم.</li>
-                <li><strong>المادة 159:</strong> إجراءات التبليغ الصحيح.</li>
-            </ul>
-        </section>
-
-        <section id="evidence">
-            <h2>قانون الإثبات</h2>
-            <p>يحدد وسائل الإثبات المقبولة قانونًا (كتابة، شهود، قرائن، إقرار، يمين...). يضمن قانون الإثبات تنظيم الحق في تقديم الأدلة وتفنيدها.</p>
-        </section>
-
-        <section id="personal-status">
-            <h2>قانون الأحوال الشخصية</h2>
-            <p>ينظم مسائل الزواج، الطلاق، الحضانة، الميراث، النفقة. يُعد من القوانين الحساسة لارتباطه المباشر بالحياة الاجتماعية للأفراد.</p>
-            <ul>
-                <li>حق الحضانة للأم حتى سن محدد.</li>
-                <li>حق الزوجة في النفقة والمسكن.</li>
-                <li>شروط صحة الطلاق.</li>
-            </ul>
-        </section>
-
-        <section id="general-legal-info">
-            <h2>معلومات قانونية عامة</h2>
-            <p>📌 هل تعلم أن التبليغ الرسمي في العراق لا يكون صحيحًا إلا إذا تم على العنوان الوارد في بطاقة السكن أو ما يعادله قانونيًا؟</p>
-            <p>📌 القانون العراقي يُجيز تسجيل شركة فردية بدون شريك وفق ضوابط خاصة.</p>
-            <p>📌 المحامي في العراق يجب أن يكون مسجلًا بنقابة المحامين ويحمل هوية نافذة لتمثيل الموكل أمام القضاء.</p>
-        </section>
-    </main>
-</div>
-
-<footer>
+  <header>
+    <h1>مكتب المحامي عزالدين الشمري</h1>
+    <p>الصفحة الرسمية للاستشارات والدعم القانوني حسب التشريعات العراقية</p>
+  </header>  <nav>
+    <a href="sections/criminal.html">العقوبات</a>
+    <a href="sections/civil.html">المرافعات</a>
+    <a href="sections/evidence.html">الإثبات</a>
+    <a href="sections/family.html">الأحوال</a>
+    <a href="sections/info.html">معلومات عامة</a>
+    <a href="sections/articles.html">مقالات</a>
+    <a href="sections/forms.html">نماذج</a>
+    <a href="sections/library.html">مكتبة</a>
+    <a href="sections/students.html">للطلبة</a>
+    <a href="sections/contact.html">اتصل بنا</a>
+  </nav>  <div class="hero">
+    <h2>العدالة لا تُمنح، بل تُنتزع بالقانون</h2>
+  </div>  <div class="container">
+    <div class="search-box">
+      <input type="text" id="searchInput" onkeyup="searchSections()" placeholder="ابحث في محتوى الموقع...">
+    </div>
+    <div id="mainContent">
+      <div class="section">
+        <h3>مرحباً بك في المنصة القانونية العراقية</h3>
+        <p>اختر من القائمة أعلاه القسم الذي ترغب في استعراضه أو استخدم خانة البحث للوصول إلى المحتوى القانوني بسرعة.</p>
+      </div>
+    </div>
+  </div>  <footer>
     &copy; 2025 جميع الحقوق محفوظة - مكتب المحامي عزالدين الشمري
-</footer>
-
-</body>
+  </footer>  <script>
+    function searchSections() {
+      const input = document.getElementById('searchInput');
+      const filter = input.value.toLowerCase();
+      const links = document.querySelectorAll('nav a');
+      links.forEach(link => {
+        const text = link.textContent.toLowerCase();
+        link.style.display = text.includes(filter) ? '' : 'none';
+      });
+    }
+  </script></body>
 </html>
